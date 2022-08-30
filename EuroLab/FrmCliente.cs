@@ -150,7 +150,7 @@ namespace EuroLab
                 string title = "Mensaje del sistema";
                 MessageBoxButtons buttons = MessageBoxButtons.YesNo;
                 DialogResult result = MessageBox.Show(message, title, buttons);
-                if (result == DialogResult.Yes)
+                if (result == DialogResult.Yes) 
                 {
                     
                     txtNombre.ResetText();
